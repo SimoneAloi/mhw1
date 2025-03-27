@@ -1,0 +1,274 @@
+body{
+    font-family: "Roboto", Arial, sans-serif;
+  }
+  
+  a {
+    cursor: pointer;
+  }
+  
+  a:hover{
+    color: #FF0D4A;
+  }
+  
+  header{
+    height: 800px;
+    width: 100%;
+  }
+  
+  nav{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #eee; 
+  }
+  
+  .nav_container{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav_container a{
+    color: #7e7e7e;
+    font-size: 15px;
+  }
+  
+  .nav_container a:hover{
+    color: black;
+  }
+  
+  #nav_gestione{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #header_top{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #unseen_div{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info_box{
+    height: 100%;
+    width: 10%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .info_box img{
+    height: 80%;
+    width: 100%;
+  }
+  
+  .info_box a{
+    font-weight: bold;
+    font-size: 15px;
+  }
+  
+  #Img_header{
+    width: 100%;
+    height: 80%; 
+  }
+  
+  #Img_header img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  section{
+    width: 100%;
+    height: 3500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .news_container{
+    width: 100%;
+    height: 19%;
+  }
+  
+  .titoli_section{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .unseen_container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .prodotto{
+    width: 24%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .prod_img {
+    position: relative;
+  }
+  
+  .prod_img li{
+    background-color: #FF0D4A;
+    width: 20%;
+    height: 7%;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    color: white;
+  }
+  
+  .prod_descr{
+    height: 17%;
+  }
+  
+  .price{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .prodotto .button{
+    background-color: #FF0D4A;
+    width: 80%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  .prodotto .button:hover{
+    background-color: white;
+  }
+  
+  .prodotto .button span:hover{
+    color: black;
+  }
+  
+  .prodotto .button span{
+   color: white;
+  }
+  
+  footer{
+    width: 100%;
+    height: 500px;
+    background-color: #f5f6fa;
+  }
+  
+  #main_info{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer_info{
+    width: 21%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #img_footer{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+  }
+  
+  #img_footer img{
+    width: 80%;
+    height: 70%;
+  }
+  
+  #after_img_info{
+    width: 100%;
+    height: 40%;
+  }
+  
+  #after_img_info p{
+    color: #7e7e7e;
+  }
+  
+  #Whatsapp{
+    color: green;
+  }
+  
+  #loghi_social{
+    width: 100%;
+    height: 10%;
+  }
+  
+  .footer_info h4{
+    margin: 38px 0px;
+  }
+  
+  .footer_info a{
+    color: #7e7e7e;
+    padding: 4px;
+  }
+  
+  .footer_info a:hover{
+    color: black;
+  }
+  
+  #other_info{
+    width: 100%;
+    height: 10%;
+    border-top: 1px solid #dbdee7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .last_container{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .last_container a{
+    color: #7e7e7e;
+  }
+  
+  .last_container a:hover{
+    color: black;
+  }
+  
+  .last_container img{
+    height: 60%;
+  }
